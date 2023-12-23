@@ -1,0 +1,85 @@
+.navbar{
+    height: 50px;
+  }
+  
+  .container{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    justify-content: space-between;
+  }
+  .container .card{
+    width: 32%;
+    height: 370px;
+    align-items: center;
+    border-radius: 50px;
+    
+  }.container .card:hover{
+    transform: scale(1.2);
+    transition: 1.2s;
+  }
+  .container .card img{
+    align-items: center;
+    border-radius: 50%;
+    
+  }
+  .container1{
+    position: absolute;
+    left: 15%;
+    top: 52%;
+    display: flex;
+    justify-content: space-between;
+  }
+  .container1 .card{
+    width: 55%;
+    height: 370px;
+    align-items: center;
+    border-radius: 50px;
+    margin-left: 55px;
+    
+  }.container1 .card:hover{
+    transform: scale(1.1);
+    transition: 1.2s;
+  }
+  .container1 .card img{
+    align-items: center;
+    border-radius: 50%;
+    
+  }
+.head h1{
+    position: absolute;
+    top: 10%;
+    left: 40%;
+  }
+  #myModal1 p{
+    font-size: 13px;
+    font-weight: 600;
+    text-align: left;
+    font-family: 'Courier New', Courier, monospace;
+  }
+  #myModal2 p{
+    font-size: 13px;
+    font-weight: 600;
+    text-align: left;
+    font-family: 'Courier New', Courier, monospace;
+  }
+  #myModal3 p{
+    font-size: 13px;
+    font-weight: 600;
+    text-align: left;
+    font-family: 'Courier New', Courier, monospace;
+  }
+  #myModal4 p{
+    font-size: 13px;
+    font-weight: 600;
+    text-align: left;
+    font-family: 'Courier New', Courier, monospace;
+  }
+  #myModal5 p{
+    font-size: 13px;
+    font-weight: 600;
+    text-align: left;
+    font-family: 'Courier New', Courier, monospace;
+  }

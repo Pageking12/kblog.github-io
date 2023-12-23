@@ -1,0 +1,72 @@
+.container{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    justify-content: space-between;
+}
+.container .card{
+    width: 32%;
+    height: 400px;
+    align-items: center;
+    
+}
+ 
+.container .card:hover{
+    transform: scale(1.2);
+    transition: 1.2s;
+}
+
+.home{
+    height: 100vh;
+    background: grey;
+    opacity: 0.9;
+}
+#gallery{
+    height: 100vh;
+    
+}
+#gallery h1{
+    position: relative;
+    top: 15px;
+
+}
+#demo{
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    border: 2px solid black;
+    border-radius: 15px;
+    width: 70%;
+    
+}
+.navbar{
+    height: 50px;
+}
+
+.about-box{
+    height: 70vh;
+    background: lightcoral;
+}
+.about-box h1{
+    position: relative;
+    top: 25px;
+
+}
+.about-container{
+    width: 70%;
+    position: relative;
+    left: 50%;
+    top: 40%;
+    transform: translate(-50%,-50%);
+    background: rgb(241, 145, 145);
+    border-radius: 10px;
+
+}
+.about-container p{
+    color: black;
+    font-size: 20px;
+    margin: 15px 15px;
+}
